@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.raund">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Raund"
+        android:usesCleartextTraffic="true">
+        <service
+            android:name=".services.PushNotificationService"
+            android:enabled="true"
+            android:exported="true">
+
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+        </service>
+
+
+
+        <service
+            android:name=".ServicePerjalanan"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".OngoingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_ongoing" />
+        <activity
+            android:name=".NotifikasiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileEditActivity"
+            android:exported="true"
+            android:label="@string/title_activity_profile_edit" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".RegisActivity"
+            android:exported="true" />
+        <activity
+            android:name=".confirmTravel"
+            android:exported="true" />
+        <activity
+            android:name=".TravelListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="true"
+            android:label="@string/title_activity_history" />
+        <activity
+            android:name=".DataTravelActivity"
+            android:exported="true"
+            android:label="@string/title_activity_data_travel" />
+        <activity
+            android:name=".DetailReceiverActivity"
+            android:exported="true"
+            android:label="@string/title_activity_detail_receiver" />
+        <activity
+            android:name=".DetailSenderActivity"
+            android:exported="true"
+            android:label="@string/title_activity_detail_sender" />
+        <activity
+            android:name=".ResheduleJadwalActivity"
+            android:exported="true" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".KonfirmDeliveryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SAddressActivity"
+            android:exported="true"
+            android:label="@string/title_activity_s_address" />
+        <activity
+            android:name=".NoSaveAddressActivity"
+            android:exported="true"
+            android:label="@string/title_activity_no_saved_address" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SavedAddressActivity"
+            android:exported="true"
+            android:label="@string/title_activity_saved_address" />
+        <activity
+            android:name=".ChangePassActivity"
+            android:exported="true"
+            android:label="@string/title_activity_changepass" />
+        <activity
+            android:name=".ChooseTravelPaketActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+    </application>
+
+</manifest>

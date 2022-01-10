@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OngoingActivity"
+    android:background="#FE8D7A">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    </RelativeLayout>
+    <!--    Putih-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boxkirikanan">
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/BtnOnGoing"
+                    android:layout_width="111dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/kiribulat"
+                    android:padding="3dp"
+                    android:text="Ongoing"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/BtnHistory"
+                    android:layout_width="111dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="100dp"
+                    android:background="@drawable/kananbulat"
+                    android:padding="3dp"
+                    android:text="History"
+                    android:textAlignment="center"
+                    android:textColor="#F7D795"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvOnGoing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="7dp"
+                tools:listitem="@layout/item_ongoing" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-65dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bottom"
+            app:itemIconTint="@drawable/color_state"
+            app:itemTextColor="@drawable/color_state"
+            app:menu="@menu/menu_bottom_nav"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

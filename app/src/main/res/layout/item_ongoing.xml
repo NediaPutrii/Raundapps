@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/DeliveryCv"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="4dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_conversion_absoluteHeight="166dp"
+            tools:layout_conversion_absoluteWidth="392dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/nama_travel_og"
+                android:layout_width="76dp"
+                android:layout_height="14dp"
+                android:background="@drawable/pinkkirikanan"
+                android:gravity="center"
+                android:hint="ERTE Travel"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.066"
+                tools:layout_conversion_absoluteHeight="14dp"
+                tools:layout_conversion_absoluteWidth="96dp" />
+
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="32dp"
+                android:paddingLeft="20dp"
+                android:text="From"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/textView32"
+                app:layout_constraintHorizontal_bias="0.003"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_conversion_absoluteHeight="16dp"
+                tools:layout_conversion_absoluteWidth="49dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="282dp"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="24dp" />
+
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:paddingRight="20dp"
+                android:text="To"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_conversion_absoluteHeight="16dp"
+                tools:layout_conversion_absoluteWidth="34dp" />
+
+            <TextView
+                android:id="@+id/fromDelivery_og"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Padang"
+                android:paddingLeft="20dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView30"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView30"
+                app:layout_constraintTop_toBottomOf="@+id/textView30"
+                tools:layout_conversion_absoluteHeight="16dp"
+                tools:layout_conversion_absoluteWidth="62dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="224dp"
+                tools:layout_editor_absoluteX="75dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+
+            <TextView
+                android:id="@+id/destinationDelivery_og"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Bukittinggi"
+                android:paddingRight="20dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView32"
+                app:layout_constraintTop_toBottomOf="@+id/textView32"
+                tools:layout_conversion_absoluteHeight="16dp"
+                tools:layout_conversion_absoluteWidth="79dp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dotted_line"
+                tools:layout_conversion_absoluteHeight="3dp"
+                tools:layout_conversion_absoluteWidth="365dp"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="66dp" />
+
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="20dp"
+                android:text="Date Of Departure"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toStartOf="@+id/textView34"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fromDelivery_og"
+                tools:layout_conversion_absoluteHeight="16dp"
+                tools:layout_conversion_absoluteWidth="117dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="149dp"
+                tools:layout_editor_absoluteX="131dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingRight="20dp"
+
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/destinationDelivery_og"
+                tools:layout_conversion_absoluteHeight="16dp"
+                tools:layout_conversion_absoluteWidth="99dp" />
+
+            <TextView
+                android:id="@+id/tgl_departure_og"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Thu, 17 Aug 2021"
+                android:paddingLeft="20dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/tgl_arrival_og"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView33"
+                app:layout_constraintTop_toBottomOf="@+id/textView33"
+                tools:layout_conversion_absoluteHeight="16dp"
+                tools:layout_conversion_absoluteWidth="117dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="131dp"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="91dp" />
+
+            <TextView
+                android:id="@+id/tgl_arrival_og"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingRight="20dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/textView34"
+                app:layout_constraintTop_toBottomOf="@+id/textView34"
+                tools:layout_conversion_absoluteHeight="16dp"
+                tools:layout_conversion_absoluteWidth="117dp" />
+
+
+            <TextView
+                android:id="@+id/jam_pergi_og"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="08.00 WIB"
+                android:paddingLeft="20dp"
+                android:textSize="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/jam_datang_og"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tgl_departure_og"
+                app:layout_constraintTop_toBottomOf="@+id/tgl_departure_og"
+                tools:layout_conversion_absoluteHeight="14dp"
+                tools:layout_conversion_absoluteWidth="66dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="234dp"
+                tools:layout_editor_absoluteX="79dp"
+                tools:layout_editor_absoluteY="107dp" />
+
+
+            <TextView
+                android:id="@+id/jam_datang_og"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+
+                android:paddingRight="10dp"
+                android:textSize="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tgl_arrival_og"
+                app:layout_constraintTop_toBottomOf="@+id/tgl_arrival_og"
+                tools:layout_conversion_absoluteHeight="14dp"
+                tools:layout_conversion_absoluteWidth="66dp" />
+
+            <TextView
+                android:id="@+id/harga_og"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:hint="Rp. 30.000"
+                android:paddingLeft="20dp"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.039"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jam_pergi_og"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_conversion_absoluteHeight="31dp"
+                tools:layout_conversion_absoluteWidth="68dp" />
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="144dp"
+                tools:layout_editor_absoluteX="81dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+<!--            <Button-->
+
+<!--                android:id="@+id/BtnReschedule"-->
+<!--                android:layout_width="107dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginBottom="16dp"-->
+<!--                android:background="@drawable/kuningkirikanan"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Reschedule"-->
+<!--                android:textSize="8sp"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.719"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/imageView19"-->
+<!--                app:layout_constraintVertical_bias="0.0"-->
+<!--                tools:layout_conversion_absoluteHeight="31dp"-->
+<!--                tools:layout_conversion_absoluteWidth="102dp" />-->
+
+            <ImageView
+                android:id="@+id/logodelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/jam_datang_og"
+                app:layout_constraintHorizontal_bias="0.947"
+                app:layout_constraintStart_toEndOf="@+id/BtnReschedule"
+                app:layout_constraintTop_toBottomOf="@+id/jam_datang_og"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="50dp" />
+
+            <ImageView
+                android:id="@+id/logotravel"
+                android:layout_width="48dp"
+                android:layout_height="21dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/jam_datang_og"
+                app:layout_constraintTop_toBottomOf="@+id/jam_datang_og"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_conversion_absoluteHeight="19dp"
+                tools:layout_conversion_absoluteWidth="50dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="345dp"
+                android:layout_height="8dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="96dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/destinationDelivery_og"
+                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintStart_toStartOf="@+id/fromDelivery_og"
+                app:layout_constraintTop_toBottomOf="@+id/nama_travel"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/dotted_line" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout6"
+        android:layout_width="411dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <ImageButton
+            android:id="@+id/BtnTraveling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/travelpic"
+            android:cropToPadding="true" />
+
+        <ImageButton
+            android:id="@+id/BtnDelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/delivery"
+            android:cropToPadding="true" />
+
+
+    </LinearLayout>
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/relativeLayout2"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
+
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottomNavigationView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="-130dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:layout_marginEnd="130dp"-->
+<!--            android:layout_marginBottom="-7dp"-->
+<!--            android:background="@color/salmon"-->
+<!--            app:menu="@menu/bottom_menu">-->
+
+
+<!--            <androidx.fragment.app.FragmentContainerView-->
+<!--                android:id="@+id/fragmentContainerView"-->
+<!--                android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                app:defaultNavHost="true"-->
+<!--                app:navGraph="@navigation/my_nav" />-->
+<!--        </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+<!--    </RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Popular Destination"
+                android:textColor="#FE8D7A"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="0dp">
+
+                <HorizontalScrollView
+                    style="@android:style/Widget.Material.HorizontalScrollView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fillViewport="true"
+                    android:scrollbarSize="4dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="horizontal"
+                    android:soundEffectsEnabled="false"
+                    android:splitMotionEvents="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageView
+                                android:id="@+id/imageView11"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                app:srcCompat="@drawable/mesjid" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageView14"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:scrollbarStyle="insideInset"
+                                app:srcCompat="@drawable/ampera" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageView13"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                app:srcCompat="@drawable/jamgdg" />
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="  Mitra RAUND"
+                android:textColor="#FE8D7A"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="0dp">
+
+                <HorizontalScrollView
+                    style="@android:style/Widget.Material.HorizontalScrollView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fillViewport="true"
+                    android:scrollbarSize="4dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="horizontal"
+                    android:soundEffectsEnabled="false"
+                    android:splitMotionEvents="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="170dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageView
+                                android:id="@+id/imageViewahya"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                app:srcCompat="@drawable/ahya" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageViewlibra"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:scrollbarStyle="insideInset"
+                                app:srcCompat="@drawable/libra" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageViewjaya"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                app:srcCompat="@drawable/jaya" />
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bottom"
+            app:itemIconTint="@drawable/color_state"
+            app:itemTextColor="@drawable/color_state"
+            app:menu="@menu/menu_bottom_nav" />
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

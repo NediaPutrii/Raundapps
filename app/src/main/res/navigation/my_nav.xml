@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeActivity">
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.raund.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <activity
+        android:id="@+id/HistoryActivity"
+        android:name="com.example.raund.HistoryActivity"
+        android:label="activity_delivery_history"
+        tools:layout="@layout/activity_history" />
+    <activity
+        android:id="@+id/settingActivity"
+        android:name="com.example.raund.SettingActivity"
+        android:label="activity_setting"
+        tools:layout="@layout/activity_setting" />
+</navigation>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/salmon"
+    tools:context=".LoginActivity">
+
+
+    <RelativeLayout
+
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="#FE8D7A"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/go"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/kirirounded"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_marginBaseline="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <EditText
+                android:id="@+id/inputEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="40dp"
+                android:background="@drawable/form"
+                android:hint="E-mail"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/inputPassLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/inputEmailLogin"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/form"
+                android:hint="Password"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/BtnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/inputPassLogin"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/form_pink"
+                android:elevation="10dp"
+                android:onClick="checkLogin"
+                android:paddingLeft="10dp"
+                android:text="Sign-In"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/donthaveacc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/BtnLogin"
+                android:layout_marginTop="30dp"
+                android:text="I Don't Have Account"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/idCreateAccTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/donthaveacc"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="20dp"
+                android:text="Create Account"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

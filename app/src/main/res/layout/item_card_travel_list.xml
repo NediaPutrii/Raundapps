@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvTravelList"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:id="@+id/TravelList"
+        android:layout_width="match_parent"
+        android:layout_height="156dp">
+
+        <TextView
+            android:id="@+id/nama_travel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="135dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_salmon_bg"
+            android:hint="nama_travel"
+            android:paddingHorizontal="10dp"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nama_mobil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="32dp"
+            android:hint="nama_mobil"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gambar_travel"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="20dp"
+            android:src="@drawable/ic_ahyaaa" />
+
+        <ImageView
+            android:id="@+id/dotted_line"
+            android:layout_width="210dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="55dp"
+            android:layerType="software"
+            android:src="@drawable/dotted_line" />
+
+
+
+        <TextView
+            android:id="@+id/jam_departure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="62dp"
+            android:hint="00.00"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="82dp"
+            android:hint="2"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/harga_travel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="104dp"
+            android:layout_toEndOf="@+id/textView44"
+            android:hint="150000"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewdel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="123dp"
+            android:text="harga delivery"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="104dp"
+            android:text="harga travel"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/harga_delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="123dp"
+            android:layout_toEndOf="@+id/textViewdel"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

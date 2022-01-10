@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Raund/app/src/main/res/drawable/bg_pertak.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/boxkanan.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/boxkirikanan.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/button.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/circle1.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/color_state.xml" value="0.240625" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/formputih.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_gambar.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_navigations.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_paket.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_raund.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_svadd.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/ic_travelhome.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/jamgdg1.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/kananbulat.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/kiri.xml" value="0.21614583333333334" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/kiribulat.xml" value="0.21614583333333334" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/kirii.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/kirirounded.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/rounded_bg_white.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/rounded_salmon_bg.xml" value="0.2128205128205128" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/rounded_salmon_stroke.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/rounded_white_bg.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/rounded_white_card.xml" value="0.2203125" />
+        <entry key="..\:/Raund/app/src/main/res/drawable/white_bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_address.xml" value="0.18659420289855072" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_change_password.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_choose_travel_paket.xml" value="0.12" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_confirm_travel.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_confirmdelivery.xml" value="0.2" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_data_travel.xml" value="0.22" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_delivery_history.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_detail_receiver.xml" value="0.22" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_detail_sender.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_dp_paket.xml" value="0.2" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_edit_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_history.xml" value="0.22" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_home1.xml" value="0.22447916666666667" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_konfirm_delivery.xml" value="0.22" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_list_travel.xml" value="0.47611464968152867" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_listtravel.xml" value="0.2" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_maps2.xml" value="0.1" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_no_save_address.xml" value="0.22" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_notifikasi.xml" value="0.11458333333333333" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_ongoing.xml" value="0.1" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_profiledit.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_regis.xml" value="0.18" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_reshedule_jadwal.xml" value="0.1" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_s_address.xml" value="0.1" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_save_address.xml" value="0.18659420289855072" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_saved_address.xml" value="0.22" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_tes.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_tes2.xml" value="0.18" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_travel_confirmation.xml" value="0.2" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_travel_history.xml" value="0.33" />
+        <entry key="..\:/Raund/app/src/main/res/layout/activity_travel_list.xml" value="0.1802536231884058" />
+        <entry key="..\:/Raund/app/src/main/res/layout/app_bar_tes.xml" value="0.15217391304347827" />
+        <entry key="..\:/Raund/app/src/main/res/layout/content_tes.xml" value="0.2" />
+        <entry key="..\:/Raund/app/src/main/res/layout/forhome.xml" value="0.17889492753623187" />
+        <entry key="..\:/Raund/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Raund/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Raund/app/src/main/res/layout/fragment_slideshow.xml" value="0.16" />
+        <entry key="..\:/Raund/app/src/main/res/layout/item_card_travel_list.xml" value="0.1802536231884058" />
+        <entry key="..\:/Raund/app/src/main/res/layout/item_delivery_history.xml" value="0.33" />
+        <entry key="..\:/Raund/app/src/main/res/layout/item_history.xml" value="0.22" />
+        <entry key="..\:/Raund/app/src/main/res/layout/item_ongoing.xml" value="0.25" />
+        <entry key="..\:/Raund/app/src/main/res/layout/item_travel_history.xml" value="0.5" />
+        <entry key="..\:/Raund/app/src/main/res/layout/list_choose_travel.xml" value="0.33" />
+        <entry key="..\:/Raund/app/src/main/res/layout/nav_header_tes.xml" value="0.1" />
+        <entry key="..\:/Raund/app/src/main/res/layout/tes.xml" value="0.22" />
+        <entry key="..\:/Raund/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
+        <entry key="..\:/Raund/app/src/main/res/menu/bottom_menu.xml" value="0.12" />
+        <entry key="..\:/Raund/app/src/main/res/menu/menu_bottom_nav.xml" value="0.153125" />
+        <entry key="..\:/Raund/app/src/main/res/menu/tes.xml" value="0.153125" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/drawable/form.xml" value="0.13854166666666667" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/drawable/form2.xml" value="0.13854166666666667" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/drawable/form_pink.xml" value="0.2703125" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/drawable/ic_delivery.xml" value="0.14635416666666667" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/drawable/lengkung.xml" value="0.14635416666666667" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/drawable/pinkkirikanan.xml" value="0.14635416666666667" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_change_password.xml" value="0.12360688956433637" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_choose_travel_paket.xml" value="0.23007246376811594" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_confirm_travel.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_confirmdelivery.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_data_travel.xml" value="0.2513586956521739" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_detail_receiver.xml" value="0.2513586956521739" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_detail_sender.xml" value="0.2513586956521739" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_history.xml" value="0.4" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_home1.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_konfirm_delivery.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_ongoing.xml" value="0.37720706260032105" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_profiledit.xml" value="0.2269021739130435" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_regis.xml" value="0.12604166666666666" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_setting.xml" value="0.23143115942028986" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_travel_confirmation.xml" value="0.2536231884057971" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/activity_travel_list.xml" value="0.1296875" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/fragment_slideshow.xml" value="0.13072916666666667" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/item_card_travel_list.xml" value="0.23007246376811594" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/item_history.xml" value="0.264" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/item_ongoing.xml" value="0.2814498933901919" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/list_choose_travel.xml" value="0.23007246376811594" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/layout/nav_header_tes.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/menu/menu_bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/RAUND1/app/src/main/res/menu/notif.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <writeAnnotations>
+      <writeAnnotation name="com.google.gson.annotations.SerializedName" />
+    </writeAnnotations>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
